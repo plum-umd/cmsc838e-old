@@ -21,7 +21,7 @@
 
 @emph{@string-titlecase[semester], @year}
 
-@emph{Lectures: Tuesday & Thursday, 2:00pm Eastern - 3:15pm Eastern, Online}
+@emph{Lectures: Tuesday & Thursday, 9:30am - 10:45am, IRB 1207}
 
 @emph{Professor: @prof}
 
@@ -40,7 +40,7 @@ implementation, including advanced research-level features.
 		staff)]
 }
 
-@bold{Communications:} @link["https://discord.gg/VPuPxSxaMJ"]{Discord}
+@bold{Communications:} @link["https://discord.gg/7krAH8HNhn"]{Discord}
 
 @bold{Assumptions:} As a graduate-level course, the major assumption
 is that you are self-directed and motivated to pursue your own
@@ -50,7 +50,7 @@ programming language like OCaml and have some familiarity with
 programming in C and Assembly. See the @seclink["Texts"]{Texts} page
 for references to brush up on this material.  The course is built upon
 the foundation of
-@link["https://www.cs.umd.edu/classes/spring2021/cmsc430/"]{CMSC 430},
+@link["https://www.cs.umd.edu/class/fall2021/cmsc430/"]{CMSC 430},
 but it's not assumed you've taken the course; only that you can work
 through the material quickly.
 
@@ -61,7 +61,7 @@ class.
 @include-section{syllabus.scrbl}
 @include-section{texts.scrbl}
 @;include-section{schedule.scrbl}
-@include-section{notes.scrbl}
+@;include-section{notes.scrbl}
 @;include-section{assignments.scrbl}
 @;include-section{midterms.scrbl}
 @include-section{project.scrbl}

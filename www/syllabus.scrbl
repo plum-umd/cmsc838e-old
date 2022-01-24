@@ -27,7 +27,7 @@ The course assumes familiarity with a functional programming such as
 OCaml from CMSC 330, and, to a lesser extent, imperative programming
 in C and Assembly as covered in CMSC 216.  Since the course builds
 significantly on
-@link["https://www.cs.umd.edu/class/spring2021/cmsc430"]{CMSC 430}, it
+@link["https://www.cs.umd.edu/class/fall2021/cmsc430"]{CMSC 430}, it
 is recommended undergraduate students have already completed 430 and
 that graduate students have taken a compilers course before, however
 in either case, highly motivated students should be able to keep up
@@ -183,8 +183,11 @@ information on this syllabus or in other course materials.  Such
 changes will be announced and prominently displayed at the top of the
 syllabus.
 
+
+@;{
 @section{Course Materials}
 
 Portions of the course materials are based on material developed by
 Ranjit Jhala and Joe Gibbs Politz.  The CMSC 430 materials were
 developed by David Van Horn and José Manuel Calderón Trilla.
+}

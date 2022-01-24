@@ -3,10 +3,10 @@
 (require scribble/core scribble/html-properties scribble/manual) 
 
 (define prof (link "https://www.cs.umd.edu/~dvanhorn/" "David Van Horn"))
-(define prof-email "leonidas@umd.edu")
+(define prof-email "dvanhorn@cs.umd.edu")
 
 (define semester "spring")
-(define year "2021")
+(define year "2022")
 (define courseno "CMSC 838E")
 
 (define IRB "IRB") 

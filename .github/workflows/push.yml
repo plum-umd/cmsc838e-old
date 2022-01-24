@@ -22,9 +22,7 @@ jobs:
         version: '7.9'
     - name: Build and test
       run: |
-        raco pkg install langs/
         raco make www/main.scrbl
-        raco test langs
         make -C www main
     - name: Archive www
       uses: actions/upload-artifact@v2
@@ -45,7 +43,7 @@ jobs:
       uses: plum-umd/github-actions-rsync@master
       with:
         RSYNC_OPTIONS: -rvzp
-        RSYNC_TARGET: /fs/www/class/spring2021/
+        RSYNC_TARGET: /fs/www/class/spring2022/
         RSYNC_SOURCE: cmsc838E
       env:
         SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
