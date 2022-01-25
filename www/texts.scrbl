@@ -3,8 +3,10 @@
 
 @title[#:style 'unnumbered]{Texts}
 
-This course @bold{has no required textbook}.  See the @secref{Notes}
-instead.
+This course @bold{has no required textbook}.  The following materials
+are provided as a reference from CMSC 430.  See also the 430
+@link["https://www.cs.umd.edu/class/fall2021/cmsc430/Notes.html"]{notes}
+too.
 
 
 @section{Background}
