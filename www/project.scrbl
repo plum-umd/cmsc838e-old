@@ -67,8 +67,48 @@ build your project's artifact from scratch or you may modify or extend an
 existing software (subject to that software's license). You may use the 430
 materials as a basis if you'd like, although you are not required to do so.
 
-[TBA: some examples of project ideas based on things we've seen so far.]
+@subsection{Project ideas}
 
+This list of project ideas is intended to help get you started if you're not
+sure what to work on.  It is not meant to be exhaustive.
+
+@itemlist[
+
+@item{Macros and modules. Using
+@emph{@link["https://www.cs.utah.edu/plt/publications/popl16-f.pdf"]{Binding as
+Sets of Scope}} as the basis, implement a macro system for the 430
+compiler. You can start by implementing this for one of the earlier language
+(e.g. Iniquity), but try to scale it up to Outlaw. You can also start with the
+early expander from the Flatt paper and try to work up to the more sophisticated
+versions, ideally getting up to the version with a module system.}
+
+@item{Occurrence typing. Using
+@emph{@link["https://www2.ccs.neu.edu/racket/pubs/icfp10-thf.pdf"]{Logical Types
+for Untyped Languages}} as the basis, implement
+a type system for the 430 language. You can start by implementing this for the
+Iniquity language and trying to scale it up to later languages.}
+
+@item{Program analysis based optimizations. Using
+@emph{@link["https://arxiv.org/pdf/1007.4446.pdf"]{Abstracting Abstract
+Machines}} as the basis, implement a program analysis tool for the 430 language.
+After implementing the analyzer, integrate it into the compiler to justify
+optimizations such as direct function calls, run-time type tag checking
+elimination, constant propagation, or other optimizations.}
+
+@item{Efficient multiple return values. Using
+@emph{@link["https://dl.acm.org/doi/10.1145/182590.156784"]{An Efficient
+Implementation of Multiple Return Values in Scheme}}, implement multiple return
+values in the 430 compiler. This is particularly well-suited for students who
+did multiple return values as a 430 project and want to explore a more
+sophisticated approach.}
+
+@item{Gradual typing. Using
+@emph{@link["https://akuhlens.github.io/paper/pldi19.pdf"]{Toward Efficient
+Gradual Typing for Structural Types via Coercions}}, implement a gradual type
+system for the 430 compiler. Modify the run-time implementation to take
+advantage of the new type invariants.}
+
+]
 
 @section{Artifact}
 
