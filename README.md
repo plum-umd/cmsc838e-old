@@ -1,3 +1,9 @@
+# Archived
+
+This course material has been archived and is no longer in use.
+
+Please see the cmsc838e repository for the current version of the course.
+
 # CMSC 838E: Advanced Compilers
 
 This repository contains the course material for CMSC 838E: Advanced 
